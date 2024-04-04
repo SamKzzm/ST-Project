@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(15, 63, 89);
+  background: radial-gradient(
+    circle,
+    rgba(15, 63, 89, 1) 0%,
+    rgba(34, 34, 34, 1) 80%
+  );
+}
+
+.grid-container {
+  margin: 50px 50px;
+  display: grid;
+  grid-template: 720px 720px / 430px 430px 430px;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-text {
+  margin-top: 54px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+}
+
+.sundowning {
+  background-image: url(images/card-backgrounds/1.png);
+}
+
+.tomb {
+  background-image: url(images/card-backgrounds/2.png);
+}
+
+.eden {
+  background-image: url(images/card-backgrounds/3.png);
+}
+
+.one {
+  background-image: url(images/card-backgrounds/4.png);
+}
+
+.two {
+  background-image: url(images/card-backgrounds/5.png);
+}
+
+.alb-img {
+  margin-top: 160px;
+  width: 240px;
+  height: 240px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.alb-sund {
+  background-image: url(images/alb-img/1.png);
+}
+
+.alb-tomb {
+  background-image: url(images/alb-img/2.png);
+}
+
+.alb-eden {
+  background-image: url(images/alb-img/3.png);
+}
+
+.alb-one {
+  background-image: url(images/alb-img/4.png);
+}
+
+.alb-two {
+  background-image: url(images/alb-img/5.png);
+}
